@@ -1,7 +1,6 @@
 import quick_styles as qs
 import keyboard as kb
 
-
 def filtered_key():
     keys = []
     while len(keys) < 2:
