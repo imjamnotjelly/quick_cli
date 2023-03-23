@@ -22,7 +22,7 @@ def select_menu(options):
                 print(v)
 
         key = filtered_key()
-        clear_lines(3)
+        clear_lines(len(options))
         match key:
             case "up":
                 if selected_index != 0:
